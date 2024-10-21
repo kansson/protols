@@ -188,7 +188,7 @@ impl LanguageServer for ProtoLanguageServer {
 
         let keywords = vec![
             "syntax", "package", "option", "import", "service", "rpc", "returns", "message",
-            "enum", "oneof", "repeated", "reserved", "to",
+            "enum", "oneof", "repeated", "reserved", "to", "editions",
         ];
 
         let mut completions: Vec<CompletionItem> = keywords
